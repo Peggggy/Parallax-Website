@@ -36,7 +36,7 @@ html {
 }
 
 #header .logo {
-    color: #002431;
+    color: #6ff3ff;
     font-weight: 800;
     font-size: 2.5em;
     text-decoration: none;
@@ -60,13 +60,15 @@ html {
     text-decoration: none;
     /* To prevent Underline */
     padding: 6px 15px;
-    color: #003549;
+    color: #b9ecff;
     border-radius: 20px;
+    transition: 0.3s ease;
 }
 
 #header ul li a:hover,
 #header ul li a.active {
-    background: #003549;
+    background: linear-gradient(135deg, #0aa9ff, #0c5a88);
+    box-shadow: 0 0 15px rgba(64, 196, 255, 0.6);
     color: white;
 }
 
@@ -88,7 +90,7 @@ section::before {
     left: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #085a7a, transparent);
+    background: linear-gradient(to top, rgba(2, 25, 53, 0.9), transparent);
     z-index: 10;
 }
 
@@ -113,13 +115,14 @@ section #text span {
 
 section #text {
     position: absolute;
-    color: #004660;
+    color: #7de6ff;
     font-size: 10vw;
     text-align: center;
     line-height: 0.55em;
     font-family: 'Rancho', cursive;
     transform: translateY(-50%);
     top: 50%;
+    text-shadow: 0 0 25px rgba(65, 193, 255, 0.8);
 }
 
 
@@ -127,20 +130,23 @@ section #text {
 #explore {
     text-decoration: none;
     /* To prevent Underline */
-    padding: 8px 25px;
-    background: white;
-    color: #003549;
+    padding: 10px 28px;
+    background: linear-gradient(135deg, #4fe0ff, #0d6bd4);
+    color: #03101f;
     font-size: 1.3em;
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 40px;
     transform: translateY(100px);
     /* To move it 100px below from center */
+    box-shadow: 0 0 25px rgba(79, 224, 255, 0.7);
+    transition: 0.3s ease;
 }
 
 #explore:hover {
-    background: #003549;
-    color: white;
+    background: linear-gradient(135deg, #7dffef, #1f9bff);
+    color: #03101f;
+    box-shadow: 0 0 30px rgba(125, 255, 239, 0.85);
 }
 
 /* Propeties of Top button */
@@ -148,16 +154,16 @@ section #text {
     position: fixed;
     width: 50px;
     height: 50px;
-    background: #4faa2e;
+    background: radial-gradient(circle at 30% 30%, #6ff3ff, #0d3d63 70%);
     bottom: 10%;
     right: 5%;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    color: white;
+    color: #001018;
     font-size: 25px;
     border-radius: 50%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(65, 193, 255, 0.45);
     z-index: 100;
 }
 
@@ -165,12 +171,12 @@ section #text {
 
 /* Glass Effect */
 .glass {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-Left: 1px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(135deg, rgba(79, 224, 255, 0.08), rgba(13, 66, 120, 0.35));
+    border-top: 1px solid rgba(125, 255, 239, 0.6);
+    border-Left: 1px solid rgba(79, 224, 255, 0.5);
     border-radius: 15px;
-    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35), 0 0 25px rgba(79, 224, 255, 0.25);
+    backdrop-filter: blur(6px);
     padding: 1em;
     margin-bottom: 2%;
 }
@@ -179,7 +185,7 @@ section #text {
 .sec {
     position: relative;
     padding: 10%;
-    background: #085a7a;
+    background: linear-gradient(180deg, #02101f 0%, #0b2741 50%, #02101f 100%);
     padding-bottom: 15%;
     z-index: 50;
     overflow: hidden;

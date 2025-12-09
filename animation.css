@@ -103,16 +103,17 @@
 
 /* Properties for footer */
 .footer {
-	width: 100%;
-	background: #e6bb95;
-	text-align: center;
-	padding: 10px 0px;
-	color: black;
+        width: 100%;
+        background: radial-gradient(circle at 20% 20%, #0a3a5c, #010c1a 65%);
+        text-align: center;
+        padding: 10px 0px;
+        color: #b9ecff;
+        box-shadow: 0 -10px 30px rgba(79, 224, 255, 0.15);
 }
 
 .footer span {
-	color: black;
-	padding: 10px 0px;
+        color: #b9ecff;
+        padding: 10px 0px;
 }
 
 .wrapper {
@@ -120,16 +121,17 @@
 }
 
 .wrapper .social-media {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	margin: 0 5px;
-	overflow: hidden;
-	background: #fff;
-	border-radius: 50px;
-	cursor: pointer;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	transition: all 0.3s ease-out;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin: 0 5px;
+        overflow: hidden;
+        background: rgba(10, 73, 117, 0.6);
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 10px 20px rgba(79, 224, 255, 0.25);
+        transition: all 0.3s ease-out;
+        border: 1px solid rgba(125, 255, 239, 0.3);
 }
 
 .wrapper .social-media:hover {
@@ -143,60 +145,61 @@
 }
 
 .wrapper .social-media .icon {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	text-align: center;
-	border-radius: 50px;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        border-radius: 50px;
 }
 
 .wrapper .social-media .icon i {
-	font-size: 25px;
-	line-height: 50px;
-	color: #fff;
-	transition-duration: 0.8s;
-	transition-property: transform;
+        font-size: 25px;
+        line-height: 50px;
+        color: #e8feff;
+        transition-duration: 0.8s;
+        transition-property: transform;
 }
 
 /* Set Color for each Icon */
 .wrapper .social-media:nth-child(1) .icon {
-	background: radial-gradient(circle at 30% 140%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: linear-gradient(135deg, #3af3ff, #0d6bd4);
 }
 
 .wrapper .social-media:nth-child(2) .icon {
-	background: #0072b1;
+        background: linear-gradient(135deg, #1ec0ff, #0a3a5c);
 }
 
 .wrapper .social-media:nth-child(3) .icon {
-	background: #171515;
+        background: linear-gradient(135deg, #12e3ff, #0c4b7a);
 }
 
 .wrapper .social-media:nth-child(4) .icon {
-	background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+        background: linear-gradient(135deg, #7dffef, #1f9bff);
 }
 
+
 .wrapper .social-media span {
-	font-size: 20px;
-	font-weight: 500;
-	margin-left: 10px;
-	transition: all 0.3s ease-out;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        transition: all 0.3s ease-out;
 }
 
 /* Set Color for each text */
 .wrapper .social-media:nth-child(1) span {
-	color: #E1306C;
+        color: #6ff3ff;
 }
 
 .wrapper .social-media:nth-child(2) span {
-	color: #0072b1;
+        color: #7de6ff;
 }
 
 .wrapper .social-media:nth-child(3) span {
-	color: #171515;
+        color: #b9ecff;
 }
 
 .wrapper .social-media:nth-child(4) span {
-	color: #0d4db4;
+        color: #6ff3ff;
 }
 
 /* To prevent animation in mobile view */
